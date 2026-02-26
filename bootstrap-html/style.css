@@ -1,0 +1,100 @@
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(-45deg, #1e3c72, #2a5298, #0f2027, #203a43);
+    background-size: 400% 400%;
+    animation: gradientBG 5s ease infinite;
+    min-height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+}
+
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+
+
+ 
+
+.card,
+.modal-content,
+.offcanvas {
+    background: rgba(255, 255, 255, 0.1) !important;
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    color: white;
+    transition: all 0.4s ease;
+}
+
+
+
+
+
+
+/* ============================= */
+/* 🔥 Buttons Animation */
+/* ============================= */
+
+.btn {
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
+
+/* ============================= */
+/* 🧭 Navbar Upgrade */
+/* ============================= */
+
+.navbar {
+    backdrop-filter: blur(10px);
+    background: rgba(0,0,0,0.7) !important;
+}
+
+/* ============================= */
+/* 🖼 Gallery Hover */
+/* ============================= */
+
+.gallery img,
+.container img {
+    transition: all 0.4s ease;
+}
+
+.container img:hover {
+    transform: scale(1.08);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.4);
+}
+
+/* ============================= */
+/* 📝 Form Styling */
+/* ============================= */
+
+.form-control {
+    border-radius: 20px;
+    background: rgba(255,255,255,0.1);
+    color: white;
+    border: 1px solid rgba(255,255,255,0.3);
+}
+
+.form-control::placeholder {
+    color: rgba(255,255,255,0.7);
+}
+
+
+footer {
+    background: rgba(0,0,0,0.8);
+    backdrop-filter: blur(10px);
+    font-size: 14px;
+}
+
+
+
